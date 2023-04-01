@@ -1,5 +1,5 @@
 import React from "react";
-import { useTable } from "@tanstack/react-table";
+import { useTable } from "react-table";
 
 const TableComponent = ({ data }) => {
   const columns = React.useMemo(
